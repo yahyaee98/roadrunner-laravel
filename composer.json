@@ -1,5 +1,5 @@
 {
-  "name": "updg/roadrunner-laravel",
+  "name": "soheily98/roadrunner-laravel",
   "license": "MIT",
   "authors": [
     {
@@ -9,6 +9,10 @@
     {
       "name": "PHP PM",
       "homepage": "https://github.com/php-pm/php-pm-httpkernel"
+    },
+    {
+      "name": "Soheil Y.",
+      "email": "yahyaee.soheil@gmail.com"
     }
   ],
   "require": {
