@@ -94,7 +94,9 @@ class Bridge
             $psr7response = $psr7factory->createResponse($response);
             $psr7->respond($psr7response);
 
-            $this->_kernel->terminate($request, $response);
+            if (method_exists($this->_kernel, 'terminate')) {
+                $this->_kernel->terminate($request, $response);
+            }
 
             if (method_exists($this->_app, 'getProvider')) {
                 //reset debugbar if available
