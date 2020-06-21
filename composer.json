@@ -25,7 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "updg\\roadrunner\\laravel\\": "src/"
+      "soheily98\\roadrunner\\laravel\\": "src/"
     }
   }
 }

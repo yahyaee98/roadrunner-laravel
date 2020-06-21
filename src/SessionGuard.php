@@ -1,6 +1,6 @@
 <?php
 
-namespace updg\roadrunner\laravel;
+namespace soheily98\roadrunner\laravel;
 
 use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Foundation\Application;

@@ -7,7 +7,7 @@ some components and can end up with bugs.
 
 ### Require this library using composer
 
-`composer req updg/roadrunner-laravel`
+`composer req soheily98/roadrunner-laravel`
 
 ### Create psr-worker.php file and add this content to it
 
@@ -15,7 +15,7 @@ some components and can end up with bugs.
 <?php
 require __DIR__ . "/vendor/autoload.php";
 
-$bridge = new \updg\roadrunner\laravel\Bridge();
+$bridge = new \soheily98\roadrunner\laravel\Bridge();
 $bridge->start();
 ```
 
